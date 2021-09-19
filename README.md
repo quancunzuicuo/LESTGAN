@@ -32,13 +32,14 @@
     ```
     
 - To test PSNR score and SSIM score
-        ```console 
-        python test.py --experiment_name 128 --dataroot data
-        python test_psnr_ssim.py
-        ```
-        ```console 
-        python test_psnr_ssim.py
-        ```
+
+    ```console 
+    python test.py --experiment_name 128 --dataroot data
+    ```
+        
+    ```console 
+    python test_psnr_ssim.py
+    ```
     
 - To test the attribute generation accuracy of the model
         - python test.py --experiment_name 128 --test_int 2 --dataroot data

@@ -33,9 +33,6 @@
     
 - To test PSNR score and SSIM score
 
-    - **classifier**
-    - download the classifier from [Google Drive](https://drive.google.com/file/d/1ARuyjm0vH7LP_4RIOY96TjU5tX1lbxe6/view?usp=sharing), and unzip the files to ***DATAROOT/***
-
     ```console 
     python test.py --experiment_name 128 --dataroot data
     ```
@@ -45,6 +42,8 @@
     ```
     
 - To test the attribute generation accuracy of the model
+
+    - download the classifier from [Google Drive](https://drive.google.com/file/d/1ARuyjm0vH7LP_4RIOY96TjU5tX1lbxe6/view?usp=sharing), and unzip the files to ***DATAROOT/***
 
     ```console 
     python test.py --experiment_name 128 --test_int 2 --dataroot data

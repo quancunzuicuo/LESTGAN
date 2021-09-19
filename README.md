@@ -42,9 +42,18 @@
     ```
     
 - To test the attribute generation accuracy of the model
-        - python test.py --experiment_name 128 --test_int 2 --dataroot data
-        - cd att_classification
-        - python test.py --img_dir ../output/128/sample_testing
+
+    ```console 
+    python test.py --experiment_name 128 --test_int 2 --dataroot data
+    ```
+    
+    ```console 
+    cd att_classification
+    ```
+    
+    ```console 
+    python test.py --img_dir ../output/128/sample_testing
+    ```
 
 - You can specify which image(s) to test by adding `--img num` (e.g., `--img 182638`, `--img 200000 200001 200002`), where the number should be no larger than 202599 and is suggested to be no smaller than 182638 as our test set starts at 182638.png.
 

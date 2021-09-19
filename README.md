@@ -34,6 +34,7 @@
 - To test PSNR score and SSIM score
         ```console 
         python test.py --experiment_name 128 --dataroot data
+        python test_psnr_ssim.py
         ```
         ```console 
         python test_psnr_ssim.py

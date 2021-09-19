@@ -60,7 +60,7 @@
 - You can specify which image(s) to test by adding `--img num` (e.g., `--img 182638`, `--img 200000 200001 200002`), where the number should be no larger than 202599 and is suggested to be no smaller than 182638 as our test set starts at 182638.png.
 
 
-- Our training code has not been cleaned up yet, we will upload it as soon as it is cleaned up
+- The training code has not been cleaned up yet, it will be uploaded after cleaning up
 
 
 ## Acknowledgement
